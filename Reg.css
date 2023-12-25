@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: blueviolet;
+    margin: 0px 131px 0px 225px;
+    padding: 2px;
+}
+header nav ul{
+    display: flex;
+    background-color: #c353bdc2;
+    width: 131%;
+    height: 92px;
+    margin: -2px 0px -4px -227px;
+}
+p{
+    margin-left: -235px;
+    background-color: red;
+    width: 100vw;
+    height: 2px;
+    animation: load 1s ease-in-out 1;
+}
+@keyframes load{
+    0% {
+        width: 0;
+    }
+    
+    50% {
+        width: 90vw;
+    }
+    100% {
+        width: 100vw;
+    }
+}
+ul li{
+    margin: 0px -138px 0px 205px;
+    padding: 31px;
+    font-size: 20px;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    font-weight: bolder;
+}
+ .logo img{
+    border-radius: 108px;
+    width: 91px;
+    margin: -91px 0px 62px -218px;
+}
+form{
+    background-color: #dcf5e9eb;
+    border-radius: 98px;
+    border: 2px solid rgba(24, 205, 241, 0.868);
+}
+h1{
+    color:blue;
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 37px 26px 35px
+    }
+.name{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+div input{
+    /* padding: 9px 16px 9px 32px; */    padding: 11px 19px 12px 19px;
+    margin: 0px 26px 32px;;
+    border-radius: 17px;
+    }
+input#name{
+    margin: 0px 0px 0px 129px;
+}
+input#father{
+    margin: -6px 0px 0px 168px
+}
+div.name{
+    margin: 12px 0px -17px 24px;
+}
+input#Email{
+    margin: 0px 0px 0px 168px
+}
+select{
+    margin: 22px 0px 0px 60px;
+    padding: 10px;
+    border-radius: 26px;
+}
+.submit{
+    margin: 6px 0px 10px 331px;
+}
